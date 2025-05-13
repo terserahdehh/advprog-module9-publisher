@@ -11,3 +11,11 @@ Using the same URL in both programs means both connect to the same broker. The g
 ### Sending and processing event.
 
 ![Alt text](img/image2.png)
+
+### Monitoring chart based on publisher
+
+![Alt text](img/image3.png)
+
+#### Explain how the spike got to do with running the publisher 
+
+The purple spikes indicate that the publisher successfully sent messages to RabbitMQ, and the subscriber received. This confirms that the message flow between the publisher and subscriber is working correctly. The spike occurred when the publisher was executed using cargo run.
