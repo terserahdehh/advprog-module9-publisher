@@ -6,3 +6,8 @@ Using the same URL in both programs means both connect to the same broker. The g
 
 ### Running RabbitMQ as message broker
 ![Alt text](img/image.png)
+
+
+### Sending and processing event.
+
+![Alt text](img/image2.png)
